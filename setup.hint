@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin xproto
+sdesc: "Xorg Display Manager Control Protocol library (development)"
+ldesc: "Xorg Display Manager Control Protocol library"
