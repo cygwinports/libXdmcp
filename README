@@ -3,21 +3,21 @@ libXdmcp
 Xorg Display Manager Control Protocol library
 
 Runtime requirements:
-  cygwin-1.5.20-1
+  cygwin-1.5.21-1
 
 Build requirements:
-  cygwin-1.5.20-1
+  cygwin-1.5.21-1
   autoconf2.5-2.59-2
   automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.2-1
+  binutils-20060709-1
+  cygport-0.2.5-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
   libtool1.5-1.5.22-1
-  make-3.80-1
+  make-3.81-1
   pkg-config-0.20-1
   sed-4.1.5-1
-  xorg-util-macros-1.0.2-1
+  xorg-util-macros-1.1.1-1
   xproto-7.0.7-1
 
 Canonical website:
@@ -29,15 +29,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libXdmcp-1.0.1-X-src.tar.bz2
+  unpack libXdmcp-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libXdmcp-1.0.1-X.cygport all
+  cygport ./libXdmcp-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/libXdmcp-1.0.1-X-src.tar.bz2
-  /usr/src/libXdmcp-1.0.1-X.tar.bz2
+  /usr/src/libXdmcp-1.0.2-X-src.tar.bz2
+  /usr/src/libXdmcp-1.0.2-X.tar.bz2
+  /usr/src/libXdmcp6-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -47,11 +48,11 @@ Files included in the main package:
   /usr/lib/libXdmcp.dll.a
   /usr/lib/libXdmcp.la
   /usr/lib/pkgconfig/xdmcp.pc
-  /usr/share/doc/Cygwin/libXdmcp-1.0.1.README
-  /usr/share/doc/libXdmcp-1.0.1/AUTHORS
-  /usr/share/doc/libXdmcp-1.0.1/COPYING
-  /usr/share/doc/libXdmcp-1.0.1/ChangeLog
-  /usr/share/doc/libXdmcp-1.0.1/INSTALL
+  /usr/share/doc/Cygwin/libXdmcp-1.0.2.README
+  /usr/share/doc/libXdmcp-1.0.2/AUTHORS
+  /usr/share/doc/libXdmcp-1.0.2/COPYING
+  /usr/share/doc/libXdmcp-1.0.2/ChangeLog
+  /usr/share/doc/libXdmcp-1.0.2/INSTALL
 
 Files included in the runtime package:
 
@@ -60,6 +61,9 @@ Files included in the runtime package:
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-1 -----
+Version bump.
 
 ----- version 1.0.1-1 -----
 X11R7.1 version bump.
