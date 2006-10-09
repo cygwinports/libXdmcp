@@ -38,29 +38,35 @@ Build instructions:
 This will create:
   /usr/src/libXdmcp-1.0.2-X-src.tar.bz2
   /usr/src/libXdmcp-1.0.2-X.tar.bz2
+  /usr/src/libXdmcp-devel-1.0.2-X.tar.bz2
   /usr/src/libXdmcp6-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the main package:
+Files included in the binary packages:
 
-  /usr/include/X11/Xdmcp.h
-  /usr/lib/libXdmcp.dll.a
-  /usr/lib/libXdmcp.la
-  /usr/lib/pkgconfig/xdmcp.pc
+(libXdmcp)
   /usr/share/doc/Cygwin/libXdmcp-1.0.2.README
   /usr/share/doc/libXdmcp-1.0.2/AUTHORS
   /usr/share/doc/libXdmcp-1.0.2/COPYING
   /usr/share/doc/libXdmcp-1.0.2/ChangeLog
   /usr/share/doc/libXdmcp-1.0.2/INSTALL
 
-Files included in the runtime package:
-
+(libXdmcp6)
   /usr/bin/cygXdmcp-6.dll
+
+(libXdmcp-devel)
+  /usr/include/X11/Xdmcp.h
+  /usr/lib/libXdmcp.dll.a
+  /usr/lib/libXdmcp.la
+  /usr/lib/pkgconfig/xdmcp.pc
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-2 -----
+Created separate -devel package.
 
 ----- version 1.0.2-1 -----
 Version bump.
