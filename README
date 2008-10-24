@@ -53,6 +53,7 @@ Files included in the binary packages:
 
 (libXdmcp-devel)
   /usr/include/X11/Xdmcp.h
+  /usr/lib/libXdmcp.a
   /usr/lib/libXdmcp.dll.a
   /usr/lib/libXdmcp.la
   /usr/lib/pkgconfig/xdmcp.pc
