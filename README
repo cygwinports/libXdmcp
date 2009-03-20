@@ -3,21 +3,22 @@ libXdmcp
 X.Org Display Manager Control Protocol library
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.0-43
+  libgcc1-4.3.2-2
 
 Build requirements:
-  autoconf2.5-2.63-1
-  automake1.9-1.9.6-1
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
   binutils-20080624-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-1
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xorg-util-macros-1.1.6-1
-  xproto-7.0.14-1
+  xorg-util-macros-1.2.1-1
+  xproto-7.0.15-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -46,10 +47,10 @@ Files included in the binary packages:
 
 (libXdmcp6)
   /usr/bin/cygXdmcp-6.dll
-  /usr/share/doc/libXdmcp-1.0.2/AUTHORS
-  /usr/share/doc/libXdmcp-1.0.2/COPYING
-  /usr/share/doc/libXdmcp-1.0.2/ChangeLog
-  /usr/share/doc/libXdmcp-1.0.2/INSTALL
+  /usr/share/doc/libXdmcp/AUTHORS
+  /usr/share/doc/libXdmcp/COPYING
+  /usr/share/doc/libXdmcp/ChangeLog
+  /usr/share/doc/libXdmcp/INSTALL
 
 (libXdmcp-devel)
   /usr/include/X11/Xdmcp.h
@@ -62,24 +63,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 1.0.2-3 -----
-Rebuilt.
-
------ version 1.0.2-2 -----
-Created separate -devel package.
-
------ version 1.0.2-1 -----
-Version bump.
-
------ version 1.0.1-1 -----
-X11R7.1 version bump.
-All build patches accepted upstream.
-
------ version 1.0.0-2 -----
-Include Wraphelp code omitted due to builddir != srcdir bug.
-
------ version 1.0.0-1 -----
-Initial Cygwin release of modular X11R7.0.
+----- version 1.0.2-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
