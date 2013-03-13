@@ -1,5 +1,0 @@
-category: X11
-requires: xproto libXdmcp6
-external-source: libXdmcp
-sdesc: "X.Org Display Manager Control Protocol library (development)"
-ldesc: "X.Org Display Manager Control Protocol library"

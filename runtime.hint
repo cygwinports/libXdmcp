@@ -1,5 +1,0 @@
-category: X11
-requires:
-external-source: libXdmcp
-sdesc: "X.Org Display Manager Control Protocol library (runtime)"
-ldesc: "X.Org Display Manager Control Protocol library"

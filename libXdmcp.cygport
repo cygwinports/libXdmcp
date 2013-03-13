@@ -1,0 +1,12 @@
+inherit xorg
+
+NAME="libXdmcp"
+VERSION=1.1.1
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org Display Manager Control Protocol library"
+DESCRIPTION="X.Org Display Manager Control Protocol library"
+
+PKG_NAMES="${PN}6 ${PN}-devel"
+libXdmcp6_CONTENTS='usr/bin/cygXdmcp-6.dll usr/share/doc/'
+libXdmcp_devel_CONTENTS='usr/include/ usr/lib/'
