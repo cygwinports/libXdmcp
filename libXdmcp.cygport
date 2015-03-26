@@ -1,9 +1,9 @@
 inherit xorg
 
 NAME="libXdmcp"
-VERSION=1.1.1
+VERSION=1.1.2
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="X.Org Display Manager Control Protocol library"
 DESCRIPTION="X.Org Display Manager Control Protocol library"
 
